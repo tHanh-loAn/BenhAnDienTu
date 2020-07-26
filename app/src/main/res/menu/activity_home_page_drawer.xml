@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tt_ca_nhan"
+            android:icon="@drawable/ttcn"
+            android:title="Thông tin cá nhân" />
+        <item
+            android:id="@+id/nav_thong_bao"
+            android:icon="@drawable/time"
+            android:title="Thông báo"/>
+        <item
+            android:id="@+id/nav_benh_an"
+            android:icon="@drawable/don_thuoc"
+            android:title="Bệnh án" />
+        <item
+            android:id="@+id/nav_suc_khoe"
+            android:icon="@drawable/suckhoe"
+            android:title="Chăm sóc sức khỏe" />
+        <item
+            android:id="@+id/nav_vi"
+            android:icon="@drawable/card"
+            android:title="Ví điện tử" />
+
+    </group>
+</menu>
